@@ -2,10 +2,25 @@ h1, h2 {
   font-family: 'Alatsi', sans-serif;
 }
 
-p, form {
+p, form, a {
   font-family: 'Lato', sans-serif;
 }
 
 html {
   background-color:
+}
+
+.rescues {
+  border-radius: 50%;
+  max-width: 50%;
+}
+
+.logo {
+  max-width: 25%;
+}
+
+a {
+  color: #000;
+  list-style-type: none;
+  text-decoration: none;
 }
