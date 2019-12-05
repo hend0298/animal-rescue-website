@@ -10,30 +10,99 @@
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Alatsi|Lato&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="island">
   <header>
-  <nav>
-    <div class="grid">
-      <div class="unit">
-        <img src="images/logo.png" alt="Loyal rescue logo">
+    <nav>
+      <div class="grid">
+        <div class="unit">
+          <img src="images/logo.svg" alt="Loyal rescue logo" class="img-flex">
+        </div>
+        <div class="unit">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rescues.html">Rescues</a></li>
+            <li><a href="adopt.html">Adopt</a></li>
+            <li><a href="">Donate</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="unit">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="rescues.html">Rescues</a></li>
-          <li><a href="adopt.html">Adopt</a></li>
-          <li><a href="">Donate</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <h1>Loyal Rescue Application Form</h2>
+    </nav>
+    <h1>Loyal Rescue Application Form</h1>
     <p> We need to know you as well as we can so please provide us with information that is as accurate as possible. Most of these questions do not have "right" or "wrong" answers. They are a way for us to verify that the dog you have selected would be well suited to your home and lifestyle.</p>
   </header>
   <main>
-    <form>
+    <form method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
+      <h2>About You</h2>
+      <fieldset>
+        <legend>I have verfied that this dog is being fostered in a location close enough for me to personally travel to, in order to adopt this dog, should I be the approved adopter.</legend>
+        <input id="yes" type="radio" name="location">
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="location">
+        <label for="no">No</label>
+      </fieldset>
+      <fieldset>
+        <legend>I have thoroughly read and understand the information in the FAQ section of the LOYAL Rescue website.</legend>
+        <input type="radio" id="yes-2" name="information">
+        <label for="yes-2">Yes</label>
+        <input type="radio" id="no-2" name="information">
+        <label for="no-2">No</label>
+      </fieldset>
+      <fieldset>
+        <legend>I understand that this application form is not a guarantee that the dog I have applied for will still be available if my application to adopt a dog is approved, as there could be several applications for this dog already in progress or the dog may have a requirement that my home does not provide.</legend>
+        <input type="radio" id="yes-3" name="application">
+        <label for="yes-3">Yes</label>
+        <input type="radio" id="no-3" name="application">
+        <label for="no-3">No</label>
+      </fieldset>
+      <fieldset>
+        <label for="first-name" class="pad-b-1-8">First name</label>
+        <input id="first-name">
+        <label for="last-name" class="pad-b-1-8">Last name</label>
+        <input id="last-name">
+        <label for="age" class="pad-b-1-8">Your Age</label>
+        <input id="age">
+        <label for="address" class="pad-b-1-8">Address</label>
+        <input id="address">
+        <label for="city" class="pad-b-1-8">City</label>
+        <input id="city">
+        <label for="province" class="pad-b-1-8">Province</label>
+        <input id="province">
+        <label for="email" class="pad-b-1-8">Email Address</label>
+        <input id="email">
+        <label for="phone-number" class="pad-b-1-8">Phone Number</label>
+        <input id="phone-number">
+      </fieldset>
+      <fieldset>
+        <h2>Your Lifestyle</h2>
+        <label for="style">Your Home Style</label>
+        <select id="style" name="home-style">
+          <option value=""></option>
+          <option>House</option>
+          <option>Semi-detached</option>
+          <option>Apartment</option>
+          <option>Townhouse</option>
+          <option>Mobile Home</option>
+          <option>Other</option>
+        </select>
+        <label for="do-you">Do you...</label>
+        <select id="do-you" name="do-you">
+          <option value=""></option>
+          <option>Own</option>
+          <option>Rent</option>
+          <option>Other</option>
+        </select>
+        <label for="type">Environment Type</label>
+        <select id="type" name="environment-type">
+          <option value=""></option>
+          <option>City</option>
+          <option>Suburban</option>
+          <option>Country</option>
+        </select>
+
+    </form>
 
 
 
-</body>
-</html>
+
+  </body>
+  </html>
