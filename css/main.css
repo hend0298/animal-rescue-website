@@ -6,10 +6,6 @@ p, form, a, .btn {
   font-family: 'Lato', sans-serif;
 }
 
-html {
-  background-color:
-}
-
 .rescues {
   border-radius: 50%;
   max-width: 50%;
@@ -44,6 +40,19 @@ a:hover {
   color: #000;
 }
 
+.banner {
+  top: 20em;
+  color: #fff;
+}
+
+.banner-photo {
+  top: 2em;
+}
+
+  .bg {
+    width: 100%;
+  }
+
 @media only screen and (min-width: 38em) {
 
   .logo {
@@ -58,20 +67,16 @@ a:hover {
     top: 1em;
   }
 
-  .bg {
-    width: 100%;
-  }
-
 }
 
 @media only screen and (min-width: 60em) {
 
   .logo {
-    top: 2em;
+    top: 1em;
   }
 
   .nav {
-    top: 2em;
+    top: 1em;
   }
 
 }
@@ -80,12 +85,12 @@ a:hover {
 
   .logo {
     left: 2em;
-    top: 3em;
+    top: 2em;
   }
 
   .nav {
     right: 2em;
-    top: 3em;
+    top: 2em;
   }
 
 }
