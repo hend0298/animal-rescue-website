@@ -33,7 +33,7 @@ ul {
 }
 
 a {
-    color: #fff;
+  color: #fff;
 }
 
 a:hover {
@@ -49,9 +49,14 @@ a:hover {
   top: 2em;
 }
 
-  .bg {
-    width: 100%;
-  }
+.bg {
+  width: 100%;
+}
+
+footer {
+  background-color: #72cfec;
+  color: #fff;
+}
 
 @media only screen and (min-width: 38em) {
 
