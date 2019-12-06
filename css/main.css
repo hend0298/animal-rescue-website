@@ -40,6 +40,17 @@ a:hover {
   color: #000;
 }
 
+.btn-ghost {
+  border-color: #72cfec;
+}
+
+.btn-ghost:hover {
+  background-color: #72cfec;
+  border-color: #72cfec;
+  color: #fff;
+}
+
+
 .banner {
   top: 20em;
   color: #fff;

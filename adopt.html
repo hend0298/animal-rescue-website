@@ -27,12 +27,12 @@
         </div>
       </div>
     </nav>
-    <h1>Loyal Rescue Application Form</h1>
+    <h1 class="yotta">Loyal Rescue Application Form</h1>
     <p> We need to know you as well as we can so please provide us with information that is as accurate as possible. Most of these questions do not have "right" or "wrong" answers. They are a way for us to verify that the dog you have selected would be well suited to your home and lifestyle.</p>
   </header>
   <main>
     <form method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
-      <h2>About You</h2>
+      <h2 class="yotta">About You</h2>
       <fieldset>
         <legend>I have verfied that this dog is being fostered in a location close enough for me to personally travel to, in order to adopt this dog, should I be the approved adopter.</legend>
         <input id="yes" type="radio" name="location">
@@ -73,9 +73,9 @@
         <input id="phone-number">
       </fieldset>
       <fieldset>
-        <h2>Your Lifestyle</h2>
-        <label for="style">Your Home Style</label>
-        <select id="style" name="home-style">
+        <h2 class="yotta push-1-4">Your Lifestyle</h2>
+        <label for="style" class="push-1-4">Your Home Style</label>
+        <select id="style" name="home-style" class="push-1-2">
           <option value=""></option>
           <option>House</option>
           <option>Semi-detached</option>
@@ -84,14 +84,14 @@
           <option>Mobile Home</option>
           <option>Other</option>
         </select>
-        <label for="do-you">Do you...</label>
-        <select id="do-you" name="do-you">
+        <label for="do-you" class="push-1-4">Do you...</label>
+        <select id="do-you" name="do-you" class="push-1-2">
           <option value=""></option>
           <option>Own</option>
           <option>Rent</option>
           <option>Other</option>
         </select>
-        <label for="type">Environment Type</label>
+        <label for="type" class="push-1-4">Environment Type</label>
         <select id="type" name="environment-type">
           <option value=""></option>
           <option>City</option>
@@ -99,23 +99,23 @@
           <option>Country</option>
         </select>
       </fieldset>
-      <h2>Pet Information</h2>
-      <legend>Have you ever owned a dog before?</legend>
+      <h2 class="yotta push-1-4">Pet Information</h2>
+      <legend class="push-1-2">Have you ever owned a dog before?</legend>
       <input id="yes-4" type="radio" name="dog">
       <label for="yes-4">Yes</label>
       <input type="radio" id="no-4" name="dog">
       <label for="no-4">No</label>
-      <legend>Do you have any other pets?</legend>
-      <input id="yes-5" type="radio" name="other-pets">
+      <legend class="push-1-2">Do you have any other pets?</legend>
+      <input id="yes-5" type="radio" name="other-pets" class="push-1-2">
       <label for="yes-5">Yes</label>
       <input type="radio" id="no-5" name="other-pets">
       <label for="no-5">No</label>
-      <legend>If yes, list the other pets you own</legend>
+      <legend class="push-1-2">If yes, list the other pets you own</legend>
       <div class="pad-b">
         <label for="list"></label>
         <textarea rows="4" id="list" name="list-other-pets"></textarea>
       </div>
-      <legend>Why do you want to adopt a rescue animal?</legend>
+      <legend class="push-1-2">Why do you want to adopt a rescue animal?</legend>
       <div class="pad-b">
         <label for="list"></label>
         <textarea rows="4" id="list" name="list-other-pets"></textarea>
