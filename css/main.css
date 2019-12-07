@@ -8,7 +8,6 @@ p, form, a, .btn {
 
 .rescues {
   border-radius: 50%;
-  max-width: 50%;
 }
 
 a {
@@ -19,6 +18,10 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+i {
+  align-items: center;
 }
 
 .logo {
@@ -49,7 +52,6 @@ a:hover {
   border-color: #72cfec;
   color: #fff;
 }
-
 
 .banner {
   top: 20em;
