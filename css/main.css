@@ -45,6 +45,7 @@ a:hover {
 
 .btn-ghost {
   border-color: #72cfec;
+    border-radius: 10px;
 }
 
 .btn-ghost:hover {
