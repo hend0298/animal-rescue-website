@@ -58,6 +58,10 @@ a:hover {
   border-bottom: 2px solid rgba(226, 168, 132, .5);
 }
 
+fieldset {
+  border: none;
+}
+
 .banner {
   top: 20em;
   color: #fff;
