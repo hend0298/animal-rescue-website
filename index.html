@@ -11,29 +11,35 @@
   <link href="https://fonts.googleapis.com/css?family=Alatsi|Lato&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="masthead grid grid-middle">
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+  <header role="banner">
     <div class="relative">
-      <img src="images/nav-bg-s.jpg" alt="" class="img-flex">
+      <svg><use xlink:href="images/nav-bg.svg"></use></svg>
     </div>
-    <div class="logo unit xs-1 s-1 m-1 l-1-4 absolute logo">
-      <h1 class="push-0 gutter-1-4 pad-b-1-4 tena">Loyal Rescue</h1>
+    <div class="grid grid-middle">
+      <div class="logo unit xs-1 s-1 m-1 l-1-4 absolute logo">
+        <h2 class="push-0 gutter-1-4 pad-b-1-4 tena">Loyal Rescue</h2>
+      </div>
+      <nav role="navigation" class="nav unit xs-1 s-1 m-1 l-3-4 absolute nav text-center">
+        <ul class="list-group-inline push-0">
+          <li class="island-1-8">
+            <a class="block text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="index.html">Home</a>
+          </li>
+          <li class="island-1-8">
+            <a class="block text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="rescues.html">Rescues</a>
+          </li>
+          <li class="island-1-8">
+            <a class="block text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="adopt.html">Adopt</a>
+          </li>
+          <li class="island-1-8">
+            <a class="block text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="#">Donate</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <nav class="nav unit xs-1 s-1 m-1 l-3-4 absolute nav">
-      <ul class="list-group-inline push-0">
-        <li class="island-1-8">
-          <a class="block text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="index.html">Home</a>
-        </li>
-        <li class="island-1-8">
-          <a class="block text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="rescues.html">Rescues</a>
-        </li>
-        <li class="island-1-8">
-          <a class="block text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="adopt.html">Adopt</a>
-        </li>
-        <li class="island-1-8">
-          <a class="block text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="#">Donate</a>
-        </li>
-      </ul>
-    </nav>
   </header>
   <div class="embed embed-16by9 relative push">
     <img src="images/banner-home.jpg" alt="" class="embed-item">
@@ -45,62 +51,62 @@
     </div>
   </div>
 
-  <main>
+  <main role="main">
     <section class="gutter">
       <div class="border push">
-    <h2 class="text-center yotta push-1-4">About Loyal</h2>
-    <div class="text-center push-0">
-      <i class="icon i-32 center">
-        <svg><use xlink:href="images/dog-bone.svg#dog-bone-icon"></use></svg>
-      </i>
-    </div>
-    <p class="milli text-center max-length">Loyal Rescue, established in 2008, in Ontario, Canada, is a foster-based, all-volunteer rescue that strives to rehabilitate dogs both physically and emotionally, making them ready for adoption. We take in stray, abandoned, abused and surrendered dogs from a variety of backgrounds, placing them in loving foster homes for evaluation and care, all the while working toward their permanent placement with loving families.</p>
-  </div>
-    <h2 class="text-center yotta push-1-4">Meet The Rescues</h2>
-    <div class="text-center push-1-4">
-      <i class="icon i-32 center">
-        <svg><use xlink:href="images/dog-bone.svg#dog-bone-icon"></use></svg>
-      </i>
-    </div>
-    <p class="milli text-center max-length">Loyal Rescue has so many dogs that are eager to find their forever home! Check out our Rescues page to find the perfect pup for you and your lifestyle.</p>
-    <div class="center-content">
-      <a href="rescues.html" class="btn btn-ghost push">Meet the Rescues</a>
-    </div>
-  </section>
+        <h2 class="text-center yotta push-1-4">About Loyal</h2>
+        <div class="text-center push-0">
+          <i class="icon i-32 center">
+            <svg><use xlink:href="images/dog-bone.svg#dog-bone-icon"></use></svg>
+          </i>
+        </div>
+        <p class="milli text-center max-length">Loyal Rescue, established in 2008, in Ontario, Canada, is a foster-based, all-volunteer rescue that strives to rehabilitate dogs both physically and emotionally, making them ready for adoption. We take in stray, abandoned, abused and surrendered dogs from a variety of backgrounds, placing them in loving foster homes for evaluation and care, all the while working toward their permanent placement with loving families.</p>
+      </div>
+      <h2 class="text-center yotta push-1-4">Meet The Rescues</h2>
+      <div class="text-center push-1-4">
+        <i class="icon i-32 center">
+          <svg><use xlink:href="images/dog-bone.svg#dog-bone-icon"></use></svg>
+        </i>
+      </div>
+      <p class="milli text-center max-length">Loyal Rescue has so many dogs that are eager to find their forever home! Check out our Rescues page to find the perfect pup for you and your lifestyle.</p>
+      <div class="center-content">
+        <a href="rescues.html" class="btn btn-ghost push">Meet the Rescues</a>
+      </div>
+    </section>
     <div class="embed embed-3by2 push dog">
       <img src="images/dog-home.jpg" alt="" class="embed-item">
     </div>
     <section class="gutter">
-    <h2 class="text-center yotta push-0">Adopt a Rescue</h2>
-    <div class="text-center push-0">
-      <i class="icon i-32 center">
-        <svg><use xlink:href="images/dog-bone.svg#dog-bone-icon"></use></svg>
-      </i>
-    </div>
-    <p class="milli text-center max-length">Adopting a rescue animal is a great way to not only help a pet find their new home, but to find a new best friend too. Consider adopting one of our dogs today and visit our adoption page whenever you're ready.</p>
-    <div class="center-content border">
-      <a href="adopt.html" class="btn btn-ghost push">Adopt Now</a>
-    </div>
-    <h2 class="text-center yotta push-0 pad-t">Donate to Help</h2>
-    <div class="text-center push-0">
-      <i class="icon i-32 center">
-        <svg><use xlink:href="images/dog-bone.svg#dog-bone-icon"></use></svg>
-      </i>
-    </div>
-    <p class="milli text-center max-length">If it isn't the right time for you to adopt but you still want to help, consider making a donation! All the proceeds will go towards Loyal Rescue and making sure our rescues are happy and healthy until they find their new home.</p>
-    <div class="center-content">
-      <a href="" class="btn btn-ghost push">Donate</a>
-    </div>
-  </section>
+      <h2 class="text-center yotta push-0">Adopt a Rescue</h2>
+      <div class="text-center push-0">
+        <i class="icon i-32 center">
+          <svg><use xlink:href="images/dog-bone.svg#dog-bone-icon"></use></svg>
+        </i>
+      </div>
+      <p class="milli text-center max-length">Adopting a rescue animal is a great way to not only help a pet find their new home, but to find a new best friend too. Consider adopting one of our dogs today and visit our adoption page whenever you're ready.</p>
+      <div class="center-content border">
+        <a href="adopt.html" class="btn btn-ghost push">Adopt Now</a>
+      </div>
+      <h2 class="text-center yotta push-0 pad-t">Donate to Help</h2>
+      <div class="text-center push-0">
+        <i class="icon i-32 center">
+          <svg><use xlink:href="images/dog-bone.svg#dog-bone-icon"></use></svg>
+        </i>
+      </div>
+      <p class="milli text-center max-length">If it isn't the right time for you to adopt but you still want to help, consider making a donation! All the proceeds will go towards Loyal Rescue and making sure our rescues are happy and healthy until they find their new home.</p>
+      <div class="center-content">
+        <a href="#" class="btn btn-ghost push">Donate</a>
+      </div>
+    </section>
   </main>
 
-    <footer class="island text-center">
-      <ul class="list-group-inline milli">
-        <li class="gutter-1-4"><a href="">Instagram</a></li>
-        <li class="gutter-1-4"><a href="">Twitter</a></li>
-        <li class="gutter-1-4"><a href="">Facebook</a></li>
-      </ul>
-      <p class="micro push-0">Loyal Rescue 2019 ©</p>
-    </footer>
-  </body>
-  </html>
+  <footer role="content-info" class="island text-center">
+    <ul class="list-group-inline milli">
+      <li class="gutter-1-4"><a href="">Instagram</a></li>
+      <li class="gutter-1-4"><a href="">Twitter</a></li>
+      <li class="gutter-1-4"><a href="">Facebook</a></li>
+    </ul>
+    <p class="micro push-0">Loyal Rescue 2019 ©</p>
+  </footer>
+</body>
+</html>

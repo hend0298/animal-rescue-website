@@ -43,6 +43,12 @@ a:hover {
   color: #000;
 }
 
+header {
+  background-color: #72cfec;
+}
+
+
+
 .btn-ghost {
   border-color: #72cfec;
     border-radius: 10px;
@@ -85,13 +91,11 @@ footer {
   .logo {
     text-align: left;
     left: 1em;
-    top: 1em;
   }
 
   .nav {
     text-align: right;
     right: 1em;
-    top: 1em;
   }
 
 }
@@ -99,11 +103,9 @@ footer {
 @media only screen and (min-width: 60em) {
 
   .logo {
-    top: 1em;
   }
 
   .nav {
-    top: 1em;
   }
 
 }
@@ -112,12 +114,10 @@ footer {
 
   .logo {
     left: 2em;
-    top: 2em;
   }
 
   .nav {
     right: 2em;
-    top: 2em;
   }
 
 }

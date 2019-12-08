@@ -11,24 +11,37 @@
   <link href="https://fonts.googleapis.com/css?family=Alatsi|Lato&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <nav>
-      <div class="grid grid-middle">
-        <div class="unit xs-1 s-1-4 m-1-4 l-1-4 xl-1-4">
-          <img src="images/logo.svg" alt="Loyal rescue logo" class="wrapper">
-        </div>
-        <div class="unit xs-1 s-1-4 m-1-4 l-1-4 xl-1-4">
-          <ul class="list-group-inline">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="rescues.html">Rescues</a></li>
-            <li><a href="adopt.html">Adopt</a></li>
-            <li><a href="">Donate</a></li>
-          </ul>
-        </div>
-      </div>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+  <header role="banner">
+    <div class="relative">
+      <svg><use xlink:href="images/nav-bg.svg"></use></svg>
+    </div>
+    <div class="grid grid-middle">
+    <div class="logo unit xs-1 s-1 m-1 l-1-4 absolute logo">
+      <h2 class="push-0 gutter-1-4 pad-b-1-4 tena">Loyal Rescue</h2>
+    </div>
+    <nav role="navigation" class="nav unit xs-1 s-1 m-1 l-3-4 absolute nav text-center">
+      <ul class="list-group-inline push-0">
+        <li class="island-1-8">
+          <a class="block text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="index.html">Home</a>
+        </li>
+        <li class="island-1-8">
+          <a class="block text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="rescues.html">Rescues</a>
+        </li>
+        <li class="island-1-8">
+          <a class="block text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="adopt.html">Adopt</a>
+        </li>
+        <li class="island-1-8">
+          <a class="block text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="#">Donate</a>
+        </li>
+      </ul>
     </nav>
+  </div>
   </header>
-  <main class="gutter text-center">
+  <main role="main" class="gutter text-center">
     <h1 class="yotta push-0">Meet the Rescues</h1>
     <div class="text-center push-0">
       <i class="icon i-32 center">
@@ -100,7 +113,7 @@
     </div>
     <a href="adop.html" class="btn btn-ghost push-2">Adopt Now</a>
   </main>
-  <footer class="island text-center">
+  <footer role="content-info" class="island text-center">
     <ul class="list-group-inline milli">
       <li class="gutter-1-4"><a href="">Instagram</a></li>
       <li class="gutter-1-4"><a href="">Twitter</a></li>
