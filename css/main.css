@@ -1,9 +1,9 @@
 h1, h2 {
-  font-family: 'Alatsi', sans-serif;
+  font-family: Alatsi, sans-serif;
 }
 
-p, form, a, .btn {
-  font-family: 'Lato', sans-serif;
+p, form, a, .btn, fieldset {
+  font-family: Lato, sans-serif;
 }
 
 .rescues {
@@ -11,7 +11,7 @@ p, form, a, .btn {
 }
 
 a {
-  color: #000;
+  color: #fff;
   list-style-type: none;
   text-decoration: none;
 }
@@ -35,10 +35,6 @@ i {
   top: 5em;
 }
 
-a {
-  color: #fff;
-}
-
 a:hover {
   color: #000;
 }
@@ -47,11 +43,9 @@ header {
   background-color: #72cfec;
 }
 
-
-
 .btn-ghost {
   border-color: #72cfec;
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .btn-ghost:hover {
@@ -96,16 +90,6 @@ footer {
   .nav {
     text-align: right;
     right: 1em;
-  }
-
-}
-
-@media only screen and (min-width: 60em) {
-
-  .logo {
-  }
-
-  .nav {
   }
 
 }

@@ -21,7 +21,7 @@
     </div>
     <div class="grid grid-middle">
     <div class="logo unit xs-1 s-1 m-1 l-1-4 absolute logo">
-      <h2 class="push-0 gutter-1-4 pad-b-1-4 tena">Loyal Rescue</h2>
+      <h1 class="push-0 gutter-1-4 pad-b-1-4 tena">Loyal Rescue</h1>
     </div>
     <nav role="navigation" class="nav unit xs-1 s-1 m-1 l-3-4 absolute nav text-center">
       <ul class="list-group-inline push-0">
@@ -106,7 +106,7 @@
         </div>
         <label for="style" class="push-1-4">Your Home Style</label>
         <select id="style" name="home-style" class="push-1-2">
-          <option value=""></option>
+          <option value="home-style"></option>
           <option>House</option>
           <option>Semi-detached</option>
           <option>Apartment</option>
@@ -149,20 +149,22 @@
         <input type="radio" id="no-5" name="other-pets">
         <label for="no-5">No</label>
       </fieldset>
+    </form>
+    <fieldset class="milli">
       <legend class="push-1-4">If yes, list the other pets you own</legend>
       <div class="pad-b">
         <label for="list"></label>
-        <textarea rows="4" id="list" name="list-other-pets"></textarea>
+        <textarea rows="4" id="list-pets" name="list-other-pets"></textarea>
       </div>
       <legend class="push-1-4">Why do you want to adopt a rescue animal?</legend>
       <div class="pad-b">
         <label for="list"></label>
-        <textarea rows="4" id="list" name="list-other-pets"></textarea>
+        <textarea rows="4" id="list-reasons" name="list-reasons"></textarea>
       </div>
+    </fieldset>
       <button type="submit" class="btn btn-ghost push">Apply</button>
-    </form>
   </main>
-  <footer role="content-info" class="island text-center">
+  <footer class="island text-center">
     <ul class="list-group-inline milli">
       <li class="gutter-1-4"><a href="">Instagram</a></li>
       <li class="gutter-1-4"><a href="">Twitter</a></li>
