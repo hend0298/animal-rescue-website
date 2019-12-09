@@ -11,7 +11,7 @@ p, form, a, .btn, fieldset {
 }
 
 a {
-  color: #fff;
+  color: #000;
   list-style-type: none;
   text-decoration: none;
 }
@@ -26,8 +26,7 @@ i {
 
 .logo {
   text-align: center;
-  top: 2em;
-  color: #fff;
+  color: #000;
 }
 
 .nav {
@@ -36,7 +35,7 @@ i {
 }
 
 a:hover {
-  color: #000;
+  color: #fff;
 }
 
 header {
@@ -77,19 +76,18 @@ fieldset {
 
 footer {
   background-color: #72cfec;
-  color: #fff;
+  color: #000;
 }
 
-@media only screen and (min-width: 38em) {
-
-  .logo {
-    text-align: left;
-    left: 1em;
-  }
+@media only screen and (min-width: 60em) {
 
   .nav {
-    text-align: right;
-    right: 1em;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  h1 {
+    padding-top: 0;
   }
 
 }

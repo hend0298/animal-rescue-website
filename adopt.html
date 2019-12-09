@@ -16,33 +16,31 @@
     <li><a href="#nav">Jump to navigation</a></li>
   </ul>
   <header role="banner">
-    <div class="relative">
-      <svg><use xlink:href="images/nav-bg.svg"></use></svg>
-    </div>
     <div class="grid grid-middle">
-    <div class="logo unit xs-1 s-1 m-1 l-1-4 absolute logo">
-      <h1 class="push-0 gutter-1-4 pad-b-1-4 tena">Loyal Rescue</h1>
+      <div class="logo unit xs-1 s-1 m-1 l-1-2 logo gutter">
+        <h1 class="push-0 gutter-1-4 pad-b-1-2 tena pad-t">Loyal Rescue</h1>
+      </div>
+      <nav role="navigation" class="nav unit xs-1 s-1 m-1 l-1-2 text-center push-1-2">
+        <ul class="list-group-inline push-0">
+          <li class="island-1-8">
+            <a class="block text-center gutter-1-4 pad-t-1-4 pad-b-1-4" href="index.html">Home</a>
+          </li>
+          <li class="island-1-8">
+            <a class="block text-center gutter-1-4 pad-t-1-4 pad-b-1-4" href="rescues.html">Rescues</a>
+          </li>
+          <li class="island-1-8">
+            <a class="block text-center gutter-1-4 pad-t-1-4 pad-b-1-4" href="adopt.html">Adopt</a>
+          </li>
+          <li class="island-1-8">
+            <a class="block text-center gutter-1-4 pad-t-1-4 pad-b-1-4" href="#">Donate</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <nav role="navigation" class="nav unit xs-1 s-1 m-1 l-3-4 absolute nav text-center">
-      <ul class="list-group-inline push-0">
-        <li class="island-1-8">
-          <a class="block text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="index.html">Home</a>
-        </li>
-        <li class="island-1-8">
-          <a class="block text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="rescues.html">Rescues</a>
-        </li>
-        <li class="island-1-8">
-          <a class="block text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="adopt.html">Adopt</a>
-        </li>
-        <li class="island-1-8">
-          <a class="block text-center gutter-1-4 pad-t-1-4 pad-b-1-4 milli" href="#">Donate</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
   </header>
+  <div class="gutter">
     <div class="border push">
-      <h2 class="yotta text-center push-1-4">Loyal Rescue Application Form</h2>
+      <h2 class="yotta text-center push-1-4 pad-t">Loyal Rescue Application Form</h2>
       <div class="text-center push-0">
         <i class="icon i-32 center">
           <svg><use xlink:href="images/dog-bone.svg#dog-bone-icon"></use></svg>
@@ -50,6 +48,7 @@
       </div>
       <p class="text-center milli max-length push"> We need to know you as well as we can so please provide us with information that is as accurate as possible. Most of these questions do not have "right" or "wrong" answers. They are a way for us to verify that the dog you have selected would be well suited to your home and lifestyle.</p>
     </div>
+  </div>
   <main role="main" class="gutter">
     <form method="POST" action="https://formspree.io/bradlet@algonquincollege.com" class="milli">
       <h2 class="yotta text-center push-1-4">About You</h2>
@@ -150,7 +149,7 @@
         <label for="no-5">No</label>
       </fieldset>
     </form>
-    <fieldset class="milli">
+    <fieldset class="milli push-0">
       <legend class="push-1-4">If yes, list the other pets you own</legend>
       <div class="pad-b">
         <label for="list"></label>
@@ -164,7 +163,7 @@
     </fieldset>
       <button type="submit" class="btn btn-ghost push">Apply</button>
   </main>
-  <footer class="island text-center">
+  <footer class="island text-center" role="contentinfo">
     <ul class="list-group-inline milli">
       <li class="gutter-1-4"><a href="">Instagram</a></li>
       <li class="gutter-1-4"><a href="">Twitter</a></li>
