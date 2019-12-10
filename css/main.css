@@ -2,7 +2,7 @@ h1, h2 {
   font-family: Alatsi, sans-serif;
 }
 
-p, form, a, .btn, fieldset {
+p, form, a, .btn, fieldset, legend {
   font-family: Lato, sans-serif;
 }
 
@@ -79,6 +79,18 @@ footer {
   color: #000;
 }
 
+@media only screen and (min-width: 38em) {
+
+  .title {
+  padding-bottom: .25em;
+  }
+
+  .nav {
+    padding-top: 0;
+  }
+
+}
+
 @media only screen and (min-width: 60em) {
 
   .nav {
@@ -86,20 +98,18 @@ footer {
     margin-top: 0;
   }
 
-  h1 {
-    padding-top: 0;
+  .title {
+    text-align: left;
+    padding-left: 1em;
   }
 
 }
 
 @media only screen and (min-width: 90em) {
 
-  .logo {
-    left: 2em;
-  }
 
-  .nav {
-    right: 2em;
+  li {
+    margin-left: 2em;
   }
 
 }
