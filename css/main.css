@@ -1,5 +1,6 @@
 h1, h2 {
   font-family: Alatsi, sans-serif;
+  color: #000;
 }
 
 p, form, a, .btn, fieldset, legend {
@@ -42,14 +43,16 @@ header {
   background-color: #72cfec;
 }
 
-.btn-ghost {
-  border-color: #72cfec;
+.btn{
+  background-color: #72cfec;
   border-radius: 10px;
+  border-color: #72cfec;
+  color: #000;
 }
 
-.btn-ghost:hover {
-  background-color: #72cfec;
-  border-color: #72cfec;
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
   color: #fff;
 }
 
@@ -89,6 +92,22 @@ footer {
     padding-top: 0;
   }
 
+  .action {
+    top: 4.5em;
+    left: 1.5em;
+  }
+
+  .banner-content {
+    position: relative;
+    border: none;
+  }
+
+  .banner {
+    position: absolute;
+    background-color: rgba(255, 255, 255, .5);
+    padding: .5em;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -103,13 +122,27 @@ footer {
     padding-left: 1em;
   }
 
+  .action {
+    top: 8em;
+    left: 4em;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
 
 
-  li {
+  a {
     margin-left: 2em;
+  }
+
+  .action {
+    top: 14em;
+    left: 8em;
+  }
+
+  .rescues {
+    padding: 0;
   }
 
 }
