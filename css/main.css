@@ -11,6 +11,12 @@ p, form, a, .btn, fieldset, legend {
   border-radius: 50%;
 }
 
+a:focus {
+  background-color: #000;
+  color: #fff;
+  outline: #000;
+}
+
 a {
   color: #000;
   list-style-type: none;
@@ -23,6 +29,18 @@ ul {
 
 i {
   align-items: center;
+}
+
+nav .current {
+  background-color: #000;
+  color: #fff;
+  border-radius: 15%;
+}
+
+nav .current:hover {
+  background-color: #fff;
+  color: #000;
+  border-radius: 15%;
 }
 
 .logo {
